@@ -1,9 +1,11 @@
 # Proyecto: [Título]
 
 ## Integrantes
-- Nombre 1 :smiley:
-- Nombre 2 :stuck_out_tongue_winking_eye:
-- Nombre 3 :smirk:
+- Allison Baño
+- Kevin Campaña
+- Raúl Ramos
+- Gabriela Zambrano
+- Paulo Franco
 
 ## Objetivo
 Describir el objetivo del proyecto :dna:
