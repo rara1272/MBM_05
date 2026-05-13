@@ -1,4 +1,4 @@
-# Proyecto: Evaluación de calidad y análisis filogenético de especies del género Mycobacterium mediante herramientas bioinformáticas
+# Proyecto: EAnálisis bioinformático de calidad y relaciones filogenéticas en especies del género Mycobacterium mediante secuencias de nueva generación y marcadores 16S rRNA 
 
 ## Integrantes
 - Allison Baño 
