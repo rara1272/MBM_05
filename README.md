@@ -8,10 +8,10 @@
 - Paulo Franco 
 
 ## Objetivo
-:Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género Mycobacterium mediante datos de secuenciación masiva y secuencias 16S rRNA.
+Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género Mycobacterium mediante datos de secuenciación masiva y secuencias 16S rRNA.
 
 ## Dataset
-SRR38455387, SRR38455388 y SRR38455389
+SRR38455387  , SRR38455388   y SRR38455389
 
 ## Flujo de trabajo (detallar en cada uno)
 1. Descarga 
