@@ -1,4 +1,4 @@
-# Proyecto: EAnálisis bioinformático de calidad y relaciones filogenéticas en especies del género Mycobacterium mediante secuencias de nueva generación y marcadores 16S rRNA 
+# Proyecto: Análisis bioinformático de calidad y relaciones filogenéticas en especies del género Mycobacterium mediante secuencias de nueva generación y marcadores 16S rRNA 
 
 ## Integrantes
 - Allison Baño 
@@ -8,10 +8,10 @@
 - Paulo Franco 
 
 ## Objetivo
-:dna: Describir el objetivo del proyecto
+:Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género Mycobacterium mediante datos de secuenciación masiva y secuencias 16S rRNA.
 
 ## Dataset
-SRRXXXXXXX
+SRR38455387, SRR38455388 y SRR38455389
 
 ## Flujo de trabajo (detallar en cada uno)
 1. Descarga 
