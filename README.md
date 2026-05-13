@@ -1,7 +1,4 @@
-# MBM_ivo
-Ejemplo de contenido de *Readme.md* para el proyecto de Omicas 1
-
-# Proyecto: [Título]
+# Proyecto: Evaluación de calidad y análisis filogenético de especies del género Mycobacterium mediante herramientas bioinformáticas
 
 ## Integrantes
 - Nombre 1 :smirk:
