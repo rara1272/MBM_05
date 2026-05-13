@@ -1,9 +1,11 @@
 # Proyecto: Evaluación de calidad y análisis filogenético de especies del género Mycobacterium mediante herramientas bioinformáticas
 
 ## Integrantes
-- Nombre 1 :smirk:
-- Nombre 2 :relaxed:
-- Nombre 3 :flushed:
+- Allison Baño 
+- Kevin Campaña 
+- Raul Ramos
+- Gabriela Zambrano
+- Paulo Franco 
 
 ## Objetivo
 :dna: Describir el objetivo del proyecto
