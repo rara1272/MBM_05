@@ -157,6 +157,12 @@ Las lecturas reverse procesadas presentan una mejora general en los valores de c
 **Tabla 5. Fasta QC con Fasta statistics**  
 La tabla de FASTA Statistics resume las características generales del conjunto de 5 secuencias del gen 16S rRNA de *Mycobacterium* spp. Se observa que las secuencias presentan longitudes similares, entre 1442 y 1532 pares de bases, con una longitud promedio de 1492 bp. La composición nucleotídica incluye 1627 adeninas, 1503 timinas, 1787 citosinas y 2547 guaninas, sin presencia de bases ambiguas (N). El contenido GC global es de 58.07%, y el dataset contiene un total de 7464 pares de bases distribuidos en 5 secuencias.
 
+![Reverse Quality](results/imagenes/fasttree.png)
+**Figura 5. Árbol filogenético. basado en secuencias 16S rRNA de distintas especies del género Mycobacterium y Mycolic Bacterium**  
+
+La imagen representa un árbol filogenético basado en secuencias 16S rRNA de distintas especies del género Mycobacterium y Mycolicibacterium. Cada nodo terminal (hoja) corresponde a una especie, y las ramas representan su relación evolutiva estimada a partir de la similitud genética.
+El árbol evidencia que: M. tuberculosis y M. kansasii están más relacionados entre sí que con el resto de especies analizadas.Las especies ambientales (M. gordonae y M. smegmatis) forman un clado separado. M. avium paratuberculosis se posiciona como un grupo intermedio.
+
 ### 4. Discusión (citar)
  
 El análisis de calidad realizado mediante FastQC permitió evaluar el estado inicial de las lecturas obtenidas por secuenciación Illumina de Mycobacterium tuberculosis. Tanto las lecturas forward como reverse mostraron una calidad general adecuada; sin embargo, se observó una disminución progresiva de los scores Phred hacia los extremos finales de las secuencias, fenómeno común en tecnologías de secuenciación de nueva generación.
