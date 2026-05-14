@@ -118,11 +118,18 @@ La tabla resume las métricas de calidad obtenidas para las lecturas reverse des
 Las lecturas reverse procesadas presentan una mejora general en los valores de calidad respecto al dataset inicial. Se evidencia una reducción de las regiones con scores bajos y una mayor estabilidad en los valores Phred, indicando que el preprocesamiento eliminó exitosamente secuencias problemáticas y mejoró la calidad global del dataset.
 
 
+
+**Figura 5. Árbol filogénico de diferentes especies de Mycobacterium**
+El análisis filogenético realizado mediante FigTree revela las relaciones evolutivas dentro del género Mycobacterium, utilizando a Mycobacterium smegmatis como un grupo externo claramente diferenciado debido a su extensa longitud de rama superior, la cual establece la raíz comparativa del árbol. A partir del primer nodo divergente, se observa que Mycobacterium gordonae es la especie basal que se separa tempranamente del resto del grupo, mostrando una mayor distancia evolutiva respecto a los patógenos más especializados como por ejemplo Mycobacterium avium subsp. paratuberculosis que comparte un ancestro común directo y se encuentra estrechamente emparentado con las especies hermanas Mycobacterium tuberculosis y Mycobacterium bovis. 
+La cercanía topológica y las cortas longitudes de rama entre estas dos últimas permiten demostrar que son homologas. Finalmente se puede observar que a excepción del grupo externo, las demás especies internas mantienen un genoma altamente conservado con tasas de mutación muy bajas entre sus linajes.
+
 ### 4. Discusión (citar)
  
 El análisis de calidad realizado mediante FastQC permitió evaluar el estado inicial de las lecturas obtenidas por secuenciación Illumina de Mycobacterium tuberculosis. Tanto las lecturas forward como reverse mostraron una calidad general adecuada; sin embargo, se observó una disminución progresiva de los scores Phred hacia los extremos finales de las secuencias, fenómeno común en tecnologías de secuenciación de nueva generación.
 
 El procesamiento posterior utilizando fastp permitió eliminar lecturas cortas y regiones de baja calidad, evidenciado por la reducción en el número total de secuencias y el aumento de la longitud mínima de lectura. A pesar de estas modificaciones, el porcentaje de GC permaneció estable alrededor del 64–65%, lo cual indica que el procesamiento no alteró significativamente la composición biológica característica del genoma de Mycobacterium tuberculosis, conocido por su alto contenido GC.
+
+En la comparación entre la plataforma Galaxy y el entorno de máquina virtual, se observó que ambos métodos generaron resultados equivalentes en cuanto a calidad. Sin embargo, se evidenció que Galaxy incrementa la velocidad de obtención de resultados y disminuye el riesgo de errores, mientras que la máquina virtual requiere códigos específicos para su correcto funcionamiento, lo que puede representar una limitación en términos de accesibilidad y eficiencia.
 
 La comparación before/after demuestra que el preprocesamiento incrementó la calidad global de los datos y generó un conjunto de secuencias más confiable para futuros análisis bioinformáticos, como alineamientos, identificación de variantes o estudios filogenéticos. Estos resultados resaltan la importancia del control de calidad en pipelines de análisis genómico, ya que errores presentes en lecturas crudas pueden propagarse y afectar la interpretación biológica final.
 
