@@ -34,7 +34,7 @@ Mycolicibacterium smegmatis
 
 Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
-## Flujo de trabajo 
+# Flujo de trabajo 
 
 ## FLUJO DE TRABAJO DE GALAXY
 
@@ -45,7 +45,7 @@ Las secuencias fueron descargadas desde NCBI en formato FASTA.
 ## Explicación 
 El flujorama de procesos de Galaxy, se divide en dos secciones, de las cuales van desde la evaluación de la calidad de lo datos crudos hasta la recontrucción del árbol de filogenetica de la secuencia 16S 
 
-# Parte 1: Control de calidad de lecturas FASTQ
+### Parte 1: Control de calidad de lecturas FASTQ
 
 Esta fase inicial es fundamental para asegurar que los datos de secuenciación sean lo suficientemente fiables antes de realizar cualquier análisis biológico.
 
@@ -57,7 +57,7 @@ Esta fase inicial es fundamental para asegurar que los datos de secuenciación s
 
 - FastQC Post-filtrado y Comparación: Se repite el análisis de calidad para validar que la limpieza fue efectiva. Finalmente, se realiza una comparación de métricas antes y después para confirmar que los datos resultantes son óptimos para la siguiente fase.
 
-# Parte 2: Curación y análisis de secuencias 16S
+### Parte 2: Curación y análisis de secuencias 16S
 
 Una vez que los datos son de alta calidad, el flujo se desplaza hacia la caracterización taxonómica y evolutiva.
 
@@ -75,8 +75,19 @@ Una vez que los datos son de alta calidad, el flujo se desplaza hacia la caracte
 
 <img width="1408" height="768" alt="FLUJO CODIGO" src="https://github.com/user-attachments/assets/f6d106b8-1a83-465d-96ee-9de996692362" />
 
-# Explicación 
+## Explicación 
 
+El flujograma detalla la metodología de trabajo para el analis de control de calidad de datos de la secuencia de ADN de alto rendimiento, el proceso se divide en 5 etepas principalmente: 
+
+1. Descarga de Datos Raw (Crudos): Se inicia con la selección de las bases de datos NCBI/ENA y la descarga de los archivos FASTQ crudos (ERR2510812_1.fastq.gz y ERR2510812_2.fastq.gz).
+
+2. Evaluar Calidad Inicial: Se realiza un análisis detallado de la calidad de los reads crudos, incluyendo el perfil de calidad por base, la duplicación de secuencias y el contenido de GC. Se generan reportes HTML para visualizar estos datos.
+
+3. Trimming de Reads: Se aplican parámetros de limpieza, como SLIDINGWINDOW y MINLEN, para eliminar adaptadores y filtrar reads de baja calidad. Se generan reads limpios (paired) y reads no pareados (unpaired), que se separan para el análisis posterior.
+
+4. Evaluar Calidad Post-Trimming: Se repite el análisis de calidad con los reads limpios para verificar la mejora en el perfil de calidad y la eliminación de adaptadores. Se generan nuevos reportes HTML.
+
+5. Visualizar Resultados: Se abren los reportes de calidad generados en el navegador para su análisis comparativo, facilitando la inspección de los datos y la toma de decisiones informadas sobre la calidad de los reads.
 
 ## Resultados
 ### Control de calidad
