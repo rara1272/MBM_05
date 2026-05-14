@@ -34,10 +34,49 @@ Mycolicibacterium smegmatis
 
 Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
-## Flujo de trabajo (detallar en cada uno)
-1. Descarga 
-2. QC
-3. Análisis
+## Flujo de trabajo 
+
+## FLUJO DE TRABAJO DE GALAXY
+
+<img width="900" alt="Flujo Galaxy" src="LINK" />
+
+<img width="1216" height="874" alt="FLUJO GALAXY" src="https://github.com/user-attachments/assets/f6199c13-3ac3-4907-8c47-9ab9d428805e" />
+
+## Explicación 
+El flujorama de procesos de Galaxy, se divide en dos secciones, de las cuales van desde la evaluación de la calidad de lo datos crudos hasta la recontrucción del árbol de filogenetica de la secuencia 16S 
+
+# Parte 1: Control de calidad de lecturas FASTQ
+
+Esta fase inicial es fundamental para asegurar que los datos de secuenciación sean lo suficientemente fiables antes de realizar cualquier análisis biológico.
+
+- NCBI SRA e Importación: El proceso comienza con la obtención de datos desde el NCBI Sequence Read Archive (SRA). Estos archivos se importan directamente al entorno de Galaxy para mantener la trazabilidad de los datos.
+
+- FastQC (Control Inicial): Se ejecuta esta herramienta para generar un diagnóstico visual de la calidad de las bases, contenido de GC y presencia de adaptadores.
+
+- Fastp (Trimming y Filtrado): Actúa como una etapa de limpieza industrial. Fastp elimina automáticamente los adaptadores de secuenciación y recorta las bases de baja calidad en los extremos. Además, filtra lecturas que no cumplen con una longitud mínima.
+
+- FastQC Post-filtrado y Comparación: Se repite el análisis de calidad para validar que la limpieza fue efectiva. Finalmente, se realiza una comparación de métricas antes y después para confirmar que los datos resultantes son óptimos para la siguiente fase.
+
+# Parte 2: Curación y análisis de secuencias 16S
+
+Una vez que los datos son de alta calidad, el flujo se desplaza hacia la caracterización taxonómica y evolutiva.
+
+- 16S rRNA completas y Revisión (Fasta statistics): Se trabaja con secuencias del gen 16S rRNA. El primer paso es una revisión estadística (longitud, cantidad de secuencias, composición de bases) mediante Fasta statistics para verificar la homogeneidad de la muestra.
+
+- MAFFT (Alineamiento Múltiple): Es el proceso central de la segunda parte. MAFFT alinea las secuencias de nucleótidos para identificar regiones conservadas y variables, lo cual es el insumo necesario para entender las relaciones de parentesco.
+
+- FastTree (Inferencia Filogenética): Utilizando el alineamiento previo, FastTree genera un árbol filogenético de manera eficiente, incluso con grandes volúmenes de secuencias, basándose en métodos de máxima verosimilitud aproximada.
+
+- Árbol Filogenético (Resultado Final): El proceso culmina con la visualización del árbol, que permite interpretar la biodiversidad de la muestra y la cercanía evolutiva entre los distintos microorganismos identificados.
+
+## FLUJO DE TRABAJO DEL CODIGO DE LA MAQUINA VIRTUAL
+
+<img width="900" alt="Flujo Código" src="LINK" />
+
+<img width="1408" height="768" alt="FLUJO CODIGO" src="https://github.com/user-attachments/assets/f6d106b8-1a83-465d-96ee-9de996692362" />
+
+# Explicación 
+
 
 ## Resultados
 ### Control de calidad
