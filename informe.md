@@ -155,6 +155,7 @@ La tabla de FASTA Statistics resume las características generales del conjunto 
 
 ![Filogenictree](results/imagenes/Filogenictree.png)
 **Figura 5. Árbol filogénico de diferentes especies de Mycobacterium**
+
 El análisis filogenético realizado mediante FigTree revela las relaciones evolutivas dentro del género Mycobacterium, utilizando a Mycobacterium smegmatis como un grupo externo claramente diferenciado debido a su extensa longitud de rama superior, la cual establece la raíz comparativa del árbol. A partir del primer nodo divergente, se observa que Mycobacterium gordonae es la especie basal que se separa tempranamente del resto del grupo, mostrando una mayor distancia evolutiva respecto a los patógenos más especializados como por ejemplo Mycobacterium avium subsp. paratuberculosis que comparte un ancestro común directo y se encuentra estrechamente emparentado con las especies hermanas Mycobacterium tuberculosis y Mycobacterium bovis. 
 La cercanía topológica y las cortas longitudes de rama entre estas dos últimas permiten demostrar que son homologas. Finalmente se puede observar que a excepción del grupo externo, las demás especies internas mantienen un genoma altamente conservado con tasas de mutación muy bajas entre sus linajes.
 
