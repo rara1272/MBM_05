@@ -117,6 +117,41 @@ La tabla resume las métricas de calidad obtenidas para las lecturas reverse des
 **Figura 4. Calidad por base de las lecturas reverse después del preprocesamiento con fastp**  
 Las lecturas reverse procesadas presentan una mejora general en los valores de calidad respecto al dataset inicial. Se evidencia una reducción de las regiones con scores bajos y una mayor estabilidad en los valores Phred, indicando que el preprocesamiento eliminó exitosamente secuencias problemáticas y mejoró la calidad global del dataset.
 
+| Column 1 | Column 2 |
+|---|---|
+| Scaffold L50 | 3 |
+| Scaffold N50 | 1487 |
+| Scaffold L90 | 5 |
+| Scaffold N90 | 1442 |
+| Scaffold len_max | 1532 |
+| Scaffold len_min | 1442 |
+| Scaffold len_mean | 1492 |
+| Scaffold len_median | 1487 |
+| Scaffold len_std | 34 |
+| Scaffold num_A | 1627 |
+| Scaffold num_T | 1503 |
+| Scaffold num_C | 1787 |
+| Scaffold num_G | 2547 |
+| Scaffold num_N | 0 |
+| Scaffold num_bp | 7464 |
+| Scaffold num_bp_not_N | 7464 |
+| Scaffold num_seq | 5 |
+| Scaffold GC content overall | 58.07 |
+| Contig L50 | 3 |
+| Contig N50 | 1487 |
+| Contig L90 | 5 |
+| Contig N90 | 1442 |
+| Contig len_max | 1532 |
+| Contig len_min | 1442 |
+| Contig len_mean | 1492 |
+| Contig len_median | 1487 |
+| Contig len_std | 34 |
+| Contig num_bp | 7464 |
+| Contig num_seq | 5 |
+| Number of gaps | 0 |
+
+**Tabla 5. Fasta QC con Fasta statistics**  
+La tabla de FASTA Statistics resume las características generales del conjunto de 5 secuencias del gen 16S rRNA de *Mycobacterium* spp. Se observa que las secuencias presentan longitudes similares, entre 1442 y 1532 pares de bases, con una longitud promedio de 1492 bp. La composición nucleotídica incluye 1627 adeninas, 1503 timinas, 1787 citosinas y 2547 guaninas, sin presencia de bases ambiguas (N). El contenido GC global es de 58.07%, y el dataset contiene un total de 7464 pares de bases distribuidos en 5 secuencias.
 
 
 **Figura 5. Árbol filogénico de diferentes especies de Mycobacterium**
