@@ -18,19 +18,15 @@ Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y
 
 ## Dataset
 
-#Secuencias FASTQ
+# Secuencias FASTQ
 
 Se utilizaron lecturas paired-end Illumina correspondientes a Mycobacterium tuberculosis, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
 
-#Secuencias 16S rRNA
+# Secuencias 16S rRNA
 
 Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género Mycobacterium:
 
-Mycobacterium tuberculosis
-Mycobacterium kansasii
-Mycobacterium gordonae
-Mycobacterium avium subsp. paratuberculosis
-Mycolicibacterium smegmatis
+Mycobacterium tuberculosis, Mycobacterium kansasii, Mycobacterium gordonae, Mycobacterium avium subsp. paratuberculosis y Mycolicibacterium smegmatis
 
 Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
@@ -99,7 +95,7 @@ Los archivos forward y reverse presentan una calidad general excelente, acumulan
 
 Mediante el proceso de trimming ambos archivos conservan una sincronía con exactamente 488,503 secuencias emparejadas y sin variar la cantidad de 64% de contenido GC. Además se corrigio la calidad de la base final y ahora todo el espectro de secuencias se ubica en la zona verde de alta calidad de Phred >30 quedando listos y optimizados para un alineamiento genómico o ensamble molecular de alta precisión.
 
-### Arbol filogenético
+#### Arbol filogenético
 
 El árbol filogenético mostró relaciones evolutivas coherentes entre especies de distinta relevancia clínica dentro del género Mycobacterium. Mycobacterium tuberculosis y M. kansasii, ambas especies patógenas asociadas a enfermedades pulmonares, presentaron una mayor cercanía genética. Por otro lado, Mycobacterium avium paratuberculosis, relacionado con infecciones crónicas en animales y potencialmente en humanos, apareció en una posición intermedia. En contraste, Mycobacterium gordonae y especialmente Mycolicibacterium smegmatis, consideradas especies de baja o nula patogenicidad y comúnmente ambientales, mostraron mayor distancia evolutiva.
 
