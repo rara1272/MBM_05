@@ -96,8 +96,9 @@ La tabla muestra las métricas obtenidas después del procesamiento con *fastp* 
 
  
 ![Forward Quality Post-fastp](results/imagenes/after_forward_quality.png)
+![Forward_Processed_Quality_VM](results/imagenes/forwardafter.png)
 
-**Figura 3. Calidad por base de las lecturas forward después del preprocesamiento con fastp**  
+**Figura 3. Calidad por base de las lecturas forward después del preprocesamiento con fastp (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 Tras el procesamiento con *fastp*, las lecturas forward muestran una distribución de calidad más homogénea y estable a lo largo de toda la secuencia. Las regiones de baja calidad observadas previamente fueron eliminadas o corregidas, lo que mejora significativamente la confiabilidad de los datos para análisis bioinformáticos posteriores.
 
 | Measure | Value |
@@ -115,8 +116,9 @@ Tras el procesamiento con *fastp*, las lecturas forward muestran una distribuci�
 La tabla resume las métricas de calidad obtenidas para las lecturas reverse después del preprocesamiento. El contenido GC permaneció estable (64–65%), lo que indica que el procesamiento no alteró significativamente la composición biológica del dataset. La disminución en el número de secuencias refleja la eliminación de lecturas problemáticas.
 
 ![Reverse Quality Post-fastp](results/imagenes/after_reverse_quality.png)
+![Reverse_Processed_Quality_VM](results/imagenes/reverseafter.png)
 
-**Figura 4. Calidad por base de las lecturas reverse después del preprocesamiento con fastp**  
+**Figura 4. Calidad por base de las lecturas reverse después del preprocesamiento con fastp (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 Las lecturas reverse procesadas presentan una mejora general en los valores de calidad respecto al dataset inicial. Se evidencia una reducción de las regiones con scores bajos y una mayor estabilidad en los valores Phred, indicando que el preprocesamiento eliminó exitosamente secuencias problemáticas y mejoró la calidad global del dataset.
 
 | Column 1 | Column 2 |
