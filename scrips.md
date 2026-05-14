@@ -22,28 +22,3 @@ alex@alex-virtualbox:~$ fastqc ERR2510812_1_paired.fastq.gz ERR2510812_2_paired.
 alex@alex-virtualbox:~$ ls
 alex@alex-virtualbox:~$ xdg-open ERR2510812_1_paired_fastqc.html
 xdg-open ERR2510812_2_paired_fastqc.html
-
-Scrip árbol filogénico
-
-alex@alex-virtualbox:~$ nano micobacterias.fasta
-alex@alex-virtualbox:~$ nano micobacterias.fasta
-alex@alex-virtualbox:~$ ls -l micobacterias.fasta
-cat micobacterias.fasta
-alex@alex-virtualbox:~$ sudo apt update
-sudo apt install mafft fasttree
-alex@alex-virtualbox:~$ mafft --auto micobacterias.fasta > micobacterias_alineadas.fasta
-alex@alex-virtualbox:~$ fasttree -nt micobacterias_alineadas.fasta > arbol_micobacterias.nwk
-alex@alex-virtualbox:~$ sudo apt install newick-utils
-alex@alex-virtualbox:~$ nw_display arbol_micobacterias.nwk
-alex@alex-virtualbox:~$ mafft --anysymbol --auto micobacterias.fasta > micobacterias_alineadas.fasta
-alex@alex-virtualbox:~$ fasttree -nt micobacterias_alineadas.fasta > arbol_micobacterias.nwk
-alex@alex-virtualbox:~$ pip install ete3
-python3 -c "from ete3 import Tree; t=Tree('arbol_micobacterias.nwk'); print(t.get_ascii(show_internal=True))"
-alex@alex-virtualbox:~$ figtree arbol_micobacterias.nwk
-alex@alex-virtualbox:~$ sudo apt update
-sudo apt install python3-pip
-alex@alex-virtualbox:~$ pip3 --version
-alex@alex-virtualbox:~$ pip3 install ete3
-alex@alex-virtualbox:~$ python3 -c "from ete3 import Tree; t=Tree('arbol_micobacterias.nwk'); print(t.get_ascii(show_internal=True))"
-alex@alex-virtualbox:~$ sudo apt install figtree
-alex@alex-virtualbox:~$ figtree arbol_micobacterias.nwk
