@@ -34,9 +34,9 @@ Mycolicibacterium smegmatis
 
 Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
-# Flujo de trabajo 
+# *Flujo de trabajo*
 
-## FLUJO DE TRABAJO DE GALAXY
+## **FLUJO DE TRABAJO DE GALAXY**
 
 <img width="900" alt="Flujo Galaxy" src="LINK" />
 
