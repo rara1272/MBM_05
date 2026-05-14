@@ -120,8 +120,13 @@ La tabla resume las métricas de calidad obtenidas para las lecturas reverse des
 Las lecturas reverse procesadas presentan una mejora general en los valores de calidad respecto al dataset inicial. Se evidencia una reducción de las regiones con scores bajos y una mayor estabilidad en los valores Phred, indicando que el preprocesamiento eliminó exitosamente secuencias problemáticas y mejoró la calidad global del dataset.
 
 
-### 4. Discusión
-interpretación biológica (citar) 
+### 4. Discusión (citar)
+ 
+El análisis de calidad realizado mediante FastQC permitió evaluar el estado inicial de las lecturas obtenidas por secuenciación Illumina de Mycobacterium tuberculosis. Tanto las lecturas forward como reverse mostraron una calidad general adecuada; sin embargo, se observó una disminución progresiva de los scores Phred hacia los extremos finales de las secuencias, fenómeno común en tecnologías de secuenciación de nueva generación.
+
+El procesamiento posterior utilizando fastp permitió eliminar lecturas cortas y regiones de baja calidad, evidenciado por la reducción en el número total de secuencias y el aumento de la longitud mínima de lectura. A pesar de estas modificaciones, el porcentaje de GC permaneció estable alrededor del 64–65%, lo cual indica que el procesamiento no alteró significativamente la composición biológica característica del genoma de Mycobacterium tuberculosis, conocido por su alto contenido GC.
+
+La comparación before/after demuestra que el preprocesamiento incrementó la calidad global de los datos y generó un conjunto de secuencias más confiable para futuros análisis bioinformáticos, como alineamientos, identificación de variantes o estudios filogenéticos. Estos resultados resaltan la importancia del control de calidad en pipelines de análisis genómico, ya que errores presentes en lecturas crudas pueden propagarse y afectar la interpretación biológica final.
 
 ### 5. Conclusiones  
 
