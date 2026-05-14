@@ -174,13 +174,7 @@ El árbol evidencia que: M. tuberculosis y M. kansasii están más relacionados 
 
 ### 5. Discusión (citar)
  
-El análisis de calidad realizado mediante FastQC permitió evaluar el estado inicial de las lecturas obtenidas por secuenciación Illumina de Mycobacterium tuberculosis. Tanto las lecturas forward como reverse mostraron una calidad general adecuada; sin embargo, se observó una disminución progresiva de los scores Phred hacia los extremos finales de las secuencias, fenómeno común en tecnologías de secuenciación de nueva generación.
 
-El procesamiento posterior utilizando fastp permitió eliminar lecturas cortas y regiones de baja calidad, evidenciado por la reducción en el número total de secuencias y el aumento de la longitud mínima de lectura. A pesar de estas modificaciones, el porcentaje de GC permaneció estable alrededor del 64–65%, lo cual indica que el procesamiento no alteró significativamente la composición biológica característica del genoma de Mycobacterium tuberculosis, conocido por su alto contenido GC.
-
-En la comparación entre la plataforma Galaxy y el entorno de máquina virtual, se observó que ambos métodos generaron resultados equivalentes en cuanto a calidad. Sin embargo, se evidenció que Galaxy incrementa la velocidad de obtención de resultados y disminuye el riesgo de errores, mientras que la máquina virtual requiere códigos específicos para su correcto funcionamiento, lo que puede representar una limitación en términos de accesibilidad y eficiencia.
-
-La comparación before/after demuestra que el preprocesamiento incrementó la calidad global de los datos y generó un conjunto de secuencias más confiable para futuros análisis bioinformáticos, como alineamientos, identificación de variantes o estudios filogenéticos. Estos resultados resaltan la importancia del control de calidad en pipelines de análisis genómico, ya que errores presentes en lecturas crudas pueden propagarse y afectar la interpretación biológica final.
 
 ### 6. Conclusiones  
 
