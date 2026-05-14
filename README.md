@@ -99,6 +99,12 @@ Los archivos forward y reverse presentan una calidad general excelente, acumulan
 
 Mediante el proceso de trimming ambos archivos conservan una sincronía con exactamente 488,503 secuencias emparejadas y sin variar la cantidad de 64% de contenido GC. Además se corrigio la calidad de la base final y ahora todo el espectro de secuencias se ubica en la zona verde de alta calidad de Phred >30 quedando listos y optimizados para un alineamiento genómico o ensamble molecular de alta precisión.
 
+### Arbol filogenético
+
+El árbol filogenético mostró relaciones evolutivas coherentes entre especies de distinta relevancia clínica dentro del género Mycobacterium. Mycobacterium tuberculosis y M. kansasii, ambas especies patógenas asociadas a enfermedades pulmonares, presentaron una mayor cercanía genética. Por otro lado, Mycobacterium avium paratuberculosis, relacionado con infecciones crónicas en animales y potencialmente en humanos, apareció en una posición intermedia. En contraste, Mycobacterium gordonae y especialmente Mycolicibacterium smegmatis, consideradas especies de baja o nula patogenicidad y comúnmente ambientales, mostraron mayor distancia evolutiva.
+
+Estos resultados evidencian que el análisis bioinformático y el control de calidad de secuencias permiten identificar relaciones filogenéticas asociadas tanto a la evolución genética como a características biológicas y patogénicas de las especies analizadas.
+
 ## Cómo reproducir
 ### Scripts
 Si es necesario genere un documento .md adicional o una carpeta para los scripts, si le hace falta (opcional)
