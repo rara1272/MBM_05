@@ -17,7 +17,22 @@ Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y
 3.	Construir e interpretar un árbol filogenético basado en secuencias 16S rRNA de diferentes especies del género Mycobacterium para analizar sus relaciones evolutivas y patrones de agrupamiento molecular.
 
 ## Dataset
-ERR2510812
+
+#Secuencias FASTQ
+
+Se utilizaron lecturas paired-end Illumina correspondientes a Mycobacterium tuberculosis, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
+
+#Secuencias 16S rRNA
+
+Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género Mycobacterium:
+
+Mycobacterium tuberculosis
+Mycobacterium kansasii
+Mycobacterium gordonae
+Mycobacterium avium subsp. paratuberculosis
+Mycolicibacterium smegmatis
+
+Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
 ## Flujo de trabajo (detallar en cada uno)
 1. Descarga 
