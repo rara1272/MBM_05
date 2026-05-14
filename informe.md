@@ -159,13 +159,6 @@ La tabla de FASTA Statistics resume las características generales del conjunto 
 La imagen representa un árbol filogenético basado en secuencias 16S rRNA de distintas especies del género Mycobacterium y Mycolicibacterium. Cada nodo terminal (hoja) corresponde a una especie, y las ramas representan su relación evolutiva estimada a partir de la similitud genética.
 El árbol evidencia que: M. tuberculosis y M. kansasii están más relacionados entre sí que con el resto de especies analizadas.Las especies ambientales (M. gordonae y M. sm
 
-
-![Filogenictree](results/imagenes/Filogenictree.png)
-**Figura 5. Árbol filogénico de diferentes especies de Mycobacterium**
-
-El análisis filogenético realizado mediante FigTree revela las relaciones evolutivas dentro del género Mycobacterium, utilizando a Mycobacterium smegmatis como un grupo externo claramente diferenciado debido a su extensa longitud de rama superior, la cual establece la raíz comparativa del árbol. A partir del primer nodo divergente, se observa que Mycobacterium gordonae es la especie basal que se separa tempranamente del resto del grupo, mostrando una mayor distancia evolutiva respecto a los patógenos más especializados como por ejemplo Mycobacterium avium subsp. paratuberculosis que comparte un ancestro común directo y se encuentra estrechamente emparentado con las especies hermanas Mycobacterium tuberculosis y Mycobacterium bovis. 
-La cercanía topológica y las cortas longitudes de rama entre estas dos últimas permiten demostrar que son homologas. Finalmente se puede observar que a excepción del grupo externo, las demás especies internas mantienen un genoma altamente conservado con tasas de mutación muy bajas entre sus linajes.
-
 ### 4. Discusión (citar)
  
 El análisis de calidad realizado mediante FastQC permitió evaluar el estado inicial de las lecturas obtenidas por secuenciación Illumina de Mycobacterium tuberculosis. Tanto las lecturas forward como reverse mostraron una calidad general adecuada; sin embargo, se observó una disminución progresiva de los scores Phred hacia los extremos finales de las secuencias, fenómeno común en tecnologías de secuenciación de nueva generación.
