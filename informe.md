@@ -35,7 +35,13 @@ Para el análisis filogenético se utilizaron secuencias del gen 16S rRNA corres
 
 El flujo de trabajo bioinformático implementado integró herramientas de análisis de calidad, procesamiento y filogenia con el objetivo de garantizar reproducibilidad, confiabilidad e interpretación biológica de los resultados obtenidos . La comparación de métricas de calidad antes y después del preprocesamiento permitió evaluar la efectividad del filtrado y trimming sobre las lecturas de secuenciación, considerando indicadores como calidad promedio, reducción de adaptadores y distribución de bases ambiguas (Chen et al., 2018). Asimismo, la construcción del árbol filogenético permitió analizar patrones de agrupamiento molecular y cercanía evolutiva entre especies del género Mycobacterium, facilitando la interpretación de procesos de divergencia genética y conservación evolutiva (Cuevas-Córdoba et al., 2021). De esta manera, la metodología empleada permitió integrar herramientas bioinformáticas modernas para desarrollar un análisis microbiológico robusto y reproducible orientado al estudio evolutivo y genómico de bacterias de importancia médica.
 
-### 3. Resultados
+### 3. Aplicaciones
+
+El análisis bioinformático de calidad y las relaciones filogenéticas en especies del género Mycobacterium mediante secuenciación de nueva generación (NGS) y el uso del marcador 16S rRNA tienen diversas aplicaciones en contextos reales de investigación y microbiología clínica. En primer lugar, destaca su utilidad en la vigilancia epidemiológica de la tuberculosis, donde la NGS permite caracterizar la diversidad genética de Mycobacterium tuberculosis, identificar mutaciones relacionadas con resistencia a medicamentos y analizar patrones de transmisión entre pacientes, lo que contribuye a mejorar las estrategias de control y tratamiento de la enfermedad (Beviere et al., 2023). Asimismo, otra aplicación importante corresponde al diagnóstico molecular de infecciones bacterianas, ya que la secuenciación del gen 16S rRNA facilita la identificación precisa de especies de Mycobacterium, especialmente en casos donde los métodos convencionales como el cultivo presentan limitaciones en sensibilidad y tiempo de respuesta, mejorando significativamente el diagnóstico clínico (Andenmatten et al., 2019).
+
+De igual manera, el empleo de tecnologías avanzadas como la metagenómica basada en NGS (mNGS) permite la detección directa de Mycobacterium sin necesidad de aislamiento previo, lo que resulta fundamental en infecciones complejas o con baja carga bacteriana, además de posibilitar la identificación simultánea de coinfecciones y otros microorganismos presentes en la muestra clínica (Li et al., 2022). Finalmente, el análisis filogenético mediante secuencias de 16S rRNA constituye una herramienta clave en la clasificación taxonómica y el estudio evolutivo de especies del género Mycobacterium, permitiendo diferenciar especies estrechamente relacionadas y comprender sus relaciones filogenéticas, lo cual es esencial tanto para la investigación microbiológica como para el desarrollo de métodos diagnósticos más específicos (Roth et al., 1998). En conjunto, estas aplicaciones evidencian que la metodología empleada tiene un impacto directo en la salud pública, el diagnóstico clínico y la investigación biológica.
+
+### 4. Resultados
 
 | Measure | Value |
 |---|---|
@@ -164,7 +170,7 @@ La tabla de FASTA Statistics resume las características generales del conjunto 
 La imagen representa un árbol filogenético basado en secuencias 16S rRNA de distintas especies del género Mycobacterium y Mycolicibacterium. Cada nodo terminal (hoja) corresponde a una especie, y las ramas representan su relación evolutiva estimada a partir de la similitud genética.
 El árbol evidencia que: M. tuberculosis y M. kansasii están más relacionados entre sí que con el resto de especies analizadas.Las especies ambientales (M. gordonae y M. smegmatis) forman un clado separado. M. avium paratuberculosis se posiciona como un grupo intermedio.
 
-### 4. Discusión (citar)
+### 5. Discusión (citar)
  
 El análisis de calidad realizado mediante FastQC permitió evaluar el estado inicial de las lecturas obtenidas por secuenciación Illumina de Mycobacterium tuberculosis. Tanto las lecturas forward como reverse mostraron una calidad general adecuada; sin embargo, se observó una disminución progresiva de los scores Phred hacia los extremos finales de las secuencias, fenómeno común en tecnologías de secuenciación de nueva generación.
 
@@ -174,9 +180,9 @@ En la comparación entre la plataforma Galaxy y el entorno de máquina virtual, 
 
 La comparación before/after demuestra que el preprocesamiento incrementó la calidad global de los datos y generó un conjunto de secuencias más confiable para futuros análisis bioinformáticos, como alineamientos, identificación de variantes o estudios filogenéticos. Estos resultados resaltan la importancia del control de calidad en pipelines de análisis genómico, ya que errores presentes en lecturas crudas pueden propagarse y afectar la interpretación biológica final.
 
-### 5. Conclusiones  
+### 6. Conclusiones  
 
-### 6. Referencias bibliográficas  
+### 7. Referencias bibliográficas  
 Genere un grupo en Mendeley con sus compañeros de proyecto. Coloque todas sus fuentes y los respectivos PDFs de cada una  
 ## NOTA
 :eyes: Deberá invitarme a su grupo en Mendeley o las plataformas usadas al correo bioupsmantigua@gmail.com
