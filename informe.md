@@ -68,6 +68,7 @@ Se observa un total de 569,449 secuencias con un contenido GC de 64%, valor cons
 
 El gráfico de calidad por base correspondiente a las lecturas forward del dataset crudo de *Mycobacterium tuberculosis* muestra valores elevados de calidad al inicio de las secuencias, representados principalmente en la zona verde del gráfico. Sin embargo, hacia las posiciones finales de lectura se observa una disminución progresiva de los valores Phred, indicando pérdida de precisión en los ciclos finales de secuenciación Illumina. Este comportamiento es común en datos de secuenciación paired-end y justifica la necesidad de aplicar procedimientos de control de calidad y trimming.
 
+**Tabla 2. Resumen estadístico del FastQC inicial — Reverse Reads** 
 | Measure | Value |
 |---|---|
 | Filename | ERR2510812_reverse.gz |
@@ -79,10 +80,7 @@ El gráfico de calidad por base correspondiente a las lecturas forward del datas
 | Sequence length | 6-76 |
 | %GC | 64 |
 
-**Tabla 2. Resumen estadístico del FastQC inicial — Reverse Reads**  
-La tabla resume las métricas de calidad obtenidas para las lecturas reverse del dataset crudo. 
-
-Los resultados muestran un número total de secuencias y contenido GC similares a los observados en las lecturas forward, indicando consistencia entre ambos conjuntos paired-end. La presencia de lecturas cortas sugiere posibles regiones de baja calidad o artefactos derivados de la secuenciación.
+La tabla resume las métricas de calidad obtenidas para las lecturas reverse del dataset crudo. Los resultados muestran un número total de secuencias y contenido GC similares a los observados en las lecturas forward, indicando consistencia entre ambos conjuntos paired-end. La presencia de lecturas cortas sugiere posibles regiones de baja calidad o artefactos derivados de la secuenciación.
 
 ![Reverse Quality](results/imagenes/before_reverse_quality.png)
 <img src="./results/imagenes/reversebefore.png" width="375">
@@ -92,7 +90,8 @@ Los resultados muestran un número total de secuencias y contenido GC similares 
 Las lecturas reverse presentan un patrón similar al observado en las lecturas forward. La calidad inicial es alta y estable, mientras que las regiones terminales muestran una disminución progresiva de los scores de calidad. Este comportamiento puede introducir errores en análisis posteriores, como alineamientos o inferencias filogenéticas, si las lecturas no son previamente procesadas.
 3)	trimming con fastp
 Procesamiento: trimming, filtrado, limpieza. para: limpiar reads, recortar extremos malos, mejorar calidad.
- 
+
+ **Tabla 3. Resumen estadístico del FastQC post-procesamiento — Forward Reads**  
 | Measure | Value |
 |---|---|
 | Filename | fastp on dataset 5 and 6.gz |
@@ -104,9 +103,7 @@ Procesamiento: trimming, filtrado, limpieza. para: limpiar reads, recortar extre
 | Sequence length | 15-76 |
 | %GC | 64 |
 
-**Tabla 3. Resumen estadístico del FastQC post-procesamiento — Forward Reads**  
 La tabla muestra las métricas obtenidas después del procesamiento con *fastp* para las lecturas forward. 
-
 Se observa una reducción en el número total de secuencias y bases totales, resultado esperado tras la eliminación de fragmentos de baja calidad. La longitud mínima aumentó de 5 a 15 pb, indicando un filtrado efectivo de lecturas extremadamente cortas.
  
 ![Forward Quality Post-fastp](results/imagenes/after_forward_quality.png)
@@ -116,6 +113,7 @@ Se observa una reducción en el número total de secuencias y bases totales, res
 
 Tras el procesamiento con *fastp*, las lecturas forward muestran una distribución de calidad más homogénea y estable a lo largo de toda la secuencia. Las regiones de baja calidad observadas previamente fueron eliminadas o corregidas, lo que mejora significativamente la confiabilidad de los datos para análisis bioinformáticos posteriores.
 
+**Tabla 4. Resumen estadístico del FastQC post-procesamiento — Reverse Reads**  
 | Measure | Value |
 |---|---|
 | Filename | fastp on dataset 5 and 6.gz |
@@ -127,9 +125,7 @@ Tras el procesamiento con *fastp*, las lecturas forward muestran una distribuci�
 | Sequence length | 15-76 |
 | %GC | 65 |
 
-**Tabla 4. Resumen estadístico del FastQC post-procesamiento — Reverse Reads**  
 La tabla resume las métricas de calidad obtenidas para las lecturas reverse después del preprocesamiento. 
-
 El contenido GC permaneció estable (64–65%), lo que indica que el procesamiento no alteró significativamente la composición biológica del dataset. La disminución en el número de secuencias refleja la eliminación de lecturas problemáticas.
 
 ![Reverse Quality Post-fastp](results/imagenes/after_reverse_quality.png)
