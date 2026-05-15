@@ -133,7 +133,7 @@ La tabla resume las métricas de calidad obtenidas para las lecturas reverse des
 El contenido GC permaneció estable (64–65%), lo que indica que el procesamiento no alteró significativamente la composición biológica del dataset. La disminución en el número de secuencias refleja la eliminación de lecturas problemáticas.
 
 ![Reverse Quality Post-fastp](results/imagenes/after_reverse_quality.png)
-![Reverse_Processed_Quality_VM](results/imagenes/reverseafter.png)
+<img src="./results/imagenes/reverseafter.png" width="375">
 
 **Figura 4. Calidad por base de las lecturas reverse después del preprocesamiento con fastp (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
