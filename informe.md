@@ -62,7 +62,7 @@ La tabla presenta las métricas generales obtenidas mediante FastQC para las lec
 Se observa un total de 569,449 secuencias con un contenido GC de 64%, valor consistente con las características genómicas de la especie. La longitud de lectura varió entre 5 y 76 pb, indicando la presencia de fragmentos cortos potencialmente asociados a regiones de baja calidad. No se detectaron secuencias marcadas como completamente deficientes.
 
 ![After Forward Quality](results/imagenes/before_forward_quality.png)
-<img src="./results/imagenes/forwardbefore.png" width="300">
+<img src="./results/imagenes/forwardbefore.png" width="500">
 
 **Figura 1. Calidad por base de las lecturas forward antes del preprocesamiento (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
