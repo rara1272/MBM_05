@@ -85,7 +85,7 @@ La tabla resume las métricas de calidad obtenidas para las lecturas reverse del
 Los resultados muestran un número total de secuencias y contenido GC similares a los observados en las lecturas forward, indicando consistencia entre ambos conjuntos paired-end. La presencia de lecturas cortas sugiere posibles regiones de baja calidad o artefactos derivados de la secuenciación.
 
 ![Reverse Quality](results/imagenes/before_reverse_quality.png)
-![Reverse_raw_Quality_VM](results/imagenes/reversebefore.png)
+<img src="./results/imagenes/reversebefore.png" width="375">
 
 **Figura 2. Calidad por base de las lecturas reverse antes del preprocesamiento (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
