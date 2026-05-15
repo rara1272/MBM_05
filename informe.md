@@ -61,6 +61,7 @@ La tabla presenta las métricas generales obtenidas mediante FastQC para las lec
 
 ![After Forward Quality](results/imagenes/before_forward_quality.png)
 <img src="./results/imagenes/forwardbefore.png" width="375">
+
 **Figura 1. Calidad por base de las lecturas forward antes del preprocesamiento (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
 El gráfico de calidad por base correspondiente a las lecturas forward del dataset crudo de *Mycobacterium tuberculosis* muestra valores elevados de calidad al inicio de las secuencias, representados principalmente en la zona verde del gráfico. Sin embargo, hacia las posiciones finales de lectura se observa una disminución progresiva de los valores Phred, indicando pérdida de precisión en los ciclos finales de secuenciación Illumina. Este comportamiento es común en datos de secuenciación paired-end y justifica la necesidad de aplicar procedimientos de control de calidad y trimming.
@@ -81,6 +82,7 @@ La tabla resume las métricas de calidad obtenidas para las lecturas reverse del
 
 ![Reverse Quality](results/imagenes/before_reverse_quality.png)
 <img src="./results/imagenes/reversebefore.png" width="375">
+
 **Figura 2. Calidad por base de las lecturas reverse antes del preprocesamiento (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
 Las lecturas reverse presentan un patrón similar al observado en las lecturas forward. La calidad inicial es alta y estable, mientras que las regiones terminales muestran una disminución progresiva de los scores de calidad. Este comportamiento puede introducir errores en análisis posteriores, como alineamientos o inferencias filogenéticas, si las lecturas no son previamente procesadas.
@@ -105,6 +107,7 @@ Se observa una reducción en el número total de secuencias y bases totales, res
  
 ![Forward Quality Post-fastp](results/imagenes/after_forward_quality.png)
 ![Forward_Processed_Quality_VM](results/imagenes/forwardafter.png)
+
 **Figura 3. Calidad por base de las lecturas forward después del preprocesamiento con fastp (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
 Tras el procesamiento con *fastp*, las lecturas forward muestran una distribución de calidad más homogénea y estable a lo largo de toda la secuencia. Las regiones de baja calidad observadas previamente fueron eliminadas o corregidas, lo que mejora significativamente la confiabilidad de los datos para análisis bioinformáticos posteriores.
@@ -126,6 +129,7 @@ El contenido GC permaneció estable (64–65%), lo que indica que el procesamien
 
 ![Reverse Quality Post-fastp](results/imagenes/after_reverse_quality.png)
 <img src="./results/imagenes/reverseafter.png" width="375">
+
 **Figura 4. Calidad por base de las lecturas reverse después del preprocesamiento con fastp (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
 Las lecturas reverse procesadas presentan una mejora general en los valores de calidad respecto al dataset inicial. Se evidencia una reducción de las regiones con scores bajos y una mayor estabilidad en los valores Phred, indicando que el preprocesamiento eliminó exitosamente secuencias problemáticas y mejoró la calidad global del dataset.
@@ -167,6 +171,7 @@ Las lecturas reverse procesadas presentan una mejora general en los valores de c
 La tabla de FASTA Statistics resume las características generales del conjunto de 5 secuencias del gen 16S rRNA de *Mycobacterium* spp. Se observa que las secuencias presentan longitudes similares, entre 1442 y 1532 pares de bases, con una longitud promedio de 1492 bp. La composición nucleotídica incluye 1627 adeninas, 1503 timinas, 1787 citosinas y 2547 guaninas, sin presencia de bases ambiguas (N). El contenido GC global es de 58.07%, y el dataset contiene un total de 7464 pares de bases distribuidos en 5 secuencias.
 
 ![Reverse Quality](results/imagenes/fasttree.png)
+
 **Figura 5. Árbol filogenético. basado en secuencias 16S rRNA de distintas especies del género Mycobacterium y Mycolic Bacterium**  
 
 La imagen representa un árbol filogenético basado en secuencias 16S rRNA de distintas especies del género Mycobacterium y Mycolicibacterium. Cada nodo terminal (hoja) corresponde a una especie, y las ramas representan su relación evolutiva estimada a partir de la similitud genética.
