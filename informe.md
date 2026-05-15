@@ -45,6 +45,10 @@ Finalmente, el análisis filogenético mediante secuencias de 16S rRNA constituy
 
 ### 4. Resultados
 
+Las lecturas forward crudas tomadas del archivo ERR2510812 *Mycobacterium tuberculosis* presentan un total de 569 449 secuencias y aproximadamente 42,3 millones de bases, lo que evidencia un volumen considerable de información genómica para el análisis bioinformático. El porcentaje de contenido GC registrado fue de 64 % (Tabla 1), valor característico de especies del género Mycobacterium, conocidas por poseer genomas ricos en guanina y citosina. Este resultado sugiere consistencia biológica y concordancia con perfiles genómicos previamente reportados para estas bacterias.
+
+Asimismo, ninguna secuencia fue marcada como de baja calidad, lo que indica que los datos presentan una calidad inicial aceptable para los análisis posteriores. Sin embargo, la longitud de secuencia variable entre 5 y 76 pares de bases evidencia la presencia de lecturas cortas o fragmentadas (Tabla 1), justificando la necesidad de aplicar procesos de trimming y filtrado para eliminar ruido técnico y optimizar la confiabilidad de los análisis de alineamiento y filogenia.
+
 **Tabla 1. Resumen estadístico del FastQC inicial — Forward Reads**
 | Measure | Value |
 |---|---|
