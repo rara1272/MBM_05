@@ -187,6 +187,14 @@ El árbol evidencia que: M. tuberculosis y M. kansasii están más relacionados 
 
 ### 6. Conclusiones  
 
+El desarrollo del presente proyecto permitió evidenciar la importancia del control de calidad y del preprocesamiento de secuencias obtenidas mediante tecnologías de secuenciación de nueva generación (NGS). Estas etapas resultaron fundamentales para mejorar la confiabilidad de los datos, ya que permitieron eliminar errores, adaptadores y regiones de baja calidad, optimizando así los análisis bioinformáticos posteriores.
+
+Asimismo, el análisis filogenético basado en secuencias del gen *16S rRNA* permitió identificar relaciones evolutivas entre distintas especies del género *Mycobacterium*, facilitando la interpretación de patrones de cercanía genética y agrupamiento molecular. Este enfoque evidenció la utilidad de los marcadores moleculares en estudios comparativos y de clasificación bacteriana.
+
+Por otro lado, la integración de diferentes herramientas bioinformáticas, tanto en plataformas gráficas como Galaxy, como en entornos de línea de comandos, permitió desarrollar un flujo de trabajo reproducible, organizado y adaptable a distintos contextos de análisis. Esto resalta la importancia de combinar distintas metodologías para fortalecer la precisión y robustez de los estudios bioinformáticos.
+
+Finalmente, los resultados obtenidos demuestran que la metodología aplicada tiene un impacto relevante en áreas como la microbiología clínica, la vigilancia epidemiológica y los estudios evolutivos, consolidándose como una herramienta clave para el análisis de microorganismos de importancia médica como *Mycobacterium*.
+
 ### 7. Referencias bibliográficas  
 Genere un grupo en Mendeley con sus compañeros de proyecto. Coloque todas sus fuentes y los respectivos PDFs de cada una  
 
