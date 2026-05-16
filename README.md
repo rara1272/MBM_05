@@ -1,4 +1,4 @@
-# Proyecto: Análisis de calidad y reconstrucción filogenética de secuencias de Mycobacterium spp. mediante herramientas bioinformáticas 
+# Proyecto: Análisis de calidad y reconstrucción filogenética de secuencias de *Mycobacterium spp.* mediante herramientas bioinformáticas 
 
 ## Integrantes
 - Allison Baño 
@@ -8,25 +8,25 @@
 - Paulo Franco 
 
 ## Objetivo
-Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género Mycobacterium mediante datos de secuenciación masiva y secuencias 16S rRNA.
+Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género *Mycobacterium* mediante datos de secuenciación masiva y secuencias 16S rRNA.
 
 ### Objetivos específicos
 
-1.	Evaluar la calidad de lecturas FASTQ de Mycobacterium tuberculosis mediante herramientas bioinformáticas especializadas para identificar errores, adaptadores y regiones de baja calidad en los datos de secuenciación.
+1.	Evaluar la calidad de lecturas FASTQ de *Mycobacterium tuberculosis* mediante herramientas bioinformáticas especializadas para identificar errores, adaptadores y regiones de baja calidad en los datos de secuenciación.
 2.	Realizar el preprocesamiento y filtrado de secuencias utilizando herramientas de trimming y depuración bioinformática para optimizar la confiabilidad de los análisis posteriores.
-3.	Construir e interpretar un árbol filogenético basado en secuencias 16S rRNA de diferentes especies del género Mycobacterium para analizar sus relaciones evolutivas y patrones de agrupamiento molecular.
+3.	Construir e interpretar un árbol filogenético basado en secuencias 16S rRNA de diferentes especies del género *Mycobacterium* para analizar sus relaciones evolutivas y patrones de agrupamiento molecular.
 
 ## Dataset
 
 #Secuencias FASTQ
 
-Se utilizaron lecturas paired-end Illumina correspondientes a Mycobacterium tuberculosis, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
+Se utilizaron lecturas paired-end Illumina correspondientes a *Mycobacterium tuberculosis*, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
 
 #Secuencias 16S rRNA
 
-Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género Mycobacterium:
+Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género *Mycobacterium*:
 
-Mycobacterium tuberculosis, Mycobacterium kansasii, Mycobacterium gordonae, Mycobacterium avium subsp. paratuberculosis y Mycolicibacterium smegmatis
+*Mycobacterium tuberculosis*, *Mycobacterium kansasii*, *Mycobacterium gordonae*, *Mycobacterium avium subsp. paratuberculosis* y *Mycolicibacterium smegmatis*
 
 Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
@@ -93,11 +93,11 @@ Los archivos forward y reverse presentan una calidad general excelente, acumulan
 
 #### Secuencias procesadas 
 
-Mediante el proceso de trimming ambos archivos conservan una sincronía con exactamente 488,503 secuencias emparejadas y sin variar la cantidad de 64% de contenido GC. Además se corrigio la calidad de la base final y ahora todo el espectro de secuencias se ubica en la zona verde de alta calidad de Phred >30 quedando listos y optimizados para un alineamiento genómico o ensamble molecular de alta precisión.
+Mediante el proceso de trimming ambos archivos conservan una sincronía con exactamente **488,503 secuencias emparejadas** y sin variar la cantidad de **64% de contenido GC**. Además se corrigio la calidad de la base final y ahora todo el espectro de secuencias se ubica en la zona verde de alta calidad de **Phred >30** quedando listos y optimizados para un alineamiento genómico o ensamble molecular de alta precisión.
 
 #### Arbol filogenético
 
-El árbol filogenético mostró relaciones evolutivas coherentes entre especies de distinta relevancia clínica dentro del género Mycobacterium. Mycobacterium tuberculosis y M. kansasii, ambas especies patógenas asociadas a enfermedades pulmonares, presentaron una mayor cercanía genética. Por otro lado, Mycobacterium avium paratuberculosis, relacionado con infecciones crónicas en animales y potencialmente en humanos, apareció en una posición intermedia. En contraste, Mycobacterium gordonae y especialmente Mycolicibacterium smegmatis, consideradas especies de baja o nula patogenicidad y comúnmente ambientales, mostraron mayor distancia evolutiva.
+El árbol filogenético mostró relaciones evolutivas coherentes entre especies de distinta relevancia clínica dentro del género *Mycobacterium*. *Mycobacterium tuberculosis* y *M. kansasii*, ambas especies patógenas asociadas a enfermedades pulmonares, presentaron una mayor cercanía genética. Por otro lado, *Mycobacterium avium paratuberculosis*, relacionado con infecciones crónicas en animales y potencialmente en humanos, apareció en una posición intermedia. En contraste, *Mycobacterium gordonae* y especialmente *Mycolicibacterium smegmatis*, consideradas especies de baja o nula patogenicidad y comúnmente ambientales, mostraron mayor distancia evolutiva.
 
 Estos resultados evidencian que el análisis bioinformático y el control de calidad de secuencias permiten identificar relaciones filogenéticas asociadas tanto a la evolución genética como a características biológicas y patogénicas de las especies analizadas.
 

@@ -1,4 +1,4 @@
-# Proyecto: Análisis de calidad y reconstrucción filogenética de secuencias de Mycobacterium spp. mediante herramientas bioinformáticas
+# Proyecto: Análisis de calidad y reconstrucción filogenética de secuencias de *Mycobacterium spp.* mediante herramientas bioinformáticas
 
 ## Integrantes
 - Allison Baño
