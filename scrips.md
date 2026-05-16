@@ -1,8 +1,9 @@
 #Scrip de maquina virtual para control de calidad de secuencia de Mycobacterium tuberculosis con acceso ERR2510812
 
-´´´ Encontrar la secuencia
+``` Encontrar la secuencia
 curl -s "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERR2510812&result=read_run&fields=fastq_ftp"
-´´´
+```
+
 ´´´ Descargar la secuencia
 wget https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR251/002/ERR2510812/ERR2510812_1.fastq.gz
 wget https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR251/002/ERR2510812/ERR2510812_2.fastq.gz
