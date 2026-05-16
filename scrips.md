@@ -1,4 +1,4 @@
-#Scrip de maquina virtual para control de calidad de secuencia de Mycobacterium tuberculosis con acceso ERR2510812
+#Scrip de maquina virtual para control de calidad de secuencia de *Mycobacterium tuberculosis* con acceso ERR2510812
 
 ``` Encontrar la secuencia
 curl -s "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERR2510812&result=read_run&fields=fastq_ftp"
