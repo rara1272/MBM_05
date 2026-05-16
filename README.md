@@ -8,25 +8,25 @@
 - Paulo Franco 
 
 ## Objetivo
-Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género Mycobacterium mediante datos de secuenciación masiva y secuencias 16S rRNA.
+Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género *Mycobacterium* mediante datos de secuenciación masiva y secuencias 16S rRNA.
 
 ### Objetivos específicos
 
-1.	Evaluar la calidad de lecturas FASTQ de Mycobacterium tuberculosis mediante herramientas bioinformáticas especializadas para identificar errores, adaptadores y regiones de baja calidad en los datos de secuenciación.
+1.	Evaluar la calidad de lecturas FASTQ de *Mycobacterium tuberculosis* mediante herramientas bioinformáticas especializadas para identificar errores, adaptadores y regiones de baja calidad en los datos de secuenciación.
 2.	Realizar el preprocesamiento y filtrado de secuencias utilizando herramientas de trimming y depuración bioinformática para optimizar la confiabilidad de los análisis posteriores.
-3.	Construir e interpretar un árbol filogenético basado en secuencias 16S rRNA de diferentes especies del género Mycobacterium para analizar sus relaciones evolutivas y patrones de agrupamiento molecular.
+3.	Construir e interpretar un árbol filogenético basado en secuencias 16S rRNA de diferentes especies del género *Mycobacterium* para analizar sus relaciones evolutivas y patrones de agrupamiento molecular.
 
 ## Dataset
 
 #Secuencias FASTQ
 
-Se utilizaron lecturas paired-end Illumina correspondientes a Mycobacterium tuberculosis, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
+Se utilizaron lecturas paired-end Illumina correspondientes a *Mycobacterium tuberculosis*, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
 
 #Secuencias 16S rRNA
 
 Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género Mycobacterium:
 
-Mycobacterium tuberculosis, Mycobacterium kansasii, Mycobacterium gordonae, Mycobacterium avium subsp. paratuberculosis y Mycolicibacterium smegmatis
+*Mycobacterium tuberculosis, Mycobacterium kansasii, Mycobacterium gordonae, Mycobacterium avium subsp. paratuberculosis y Mycolicibacterium smegmatis*
 
 Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
