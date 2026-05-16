@@ -24,7 +24,7 @@ Se utilizaron lecturas paired-end Illumina correspondientes a *Mycobacterium tub
 
 #Secuencias 16S rRNA
 
-Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género Mycobacterium:
+Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género *Mycobacterium*:
 
 *Mycobacterium tuberculosis, Mycobacterium kansasii, Mycobacterium gordonae, Mycobacterium avium subsp. paratuberculosis y Mycolicibacterium smegmatis*
 
