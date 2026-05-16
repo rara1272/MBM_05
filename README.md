@@ -20,13 +20,13 @@ Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y
 
 #Secuencias FASTQ
 
-Se utilizaron lecturas paired-end Illumina correspondientes a Mycobacterium tuberculosis, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
+Se utilizaron lecturas paired-end Illumina correspondientes a *Mycobacterium tuberculosis*, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
 
 #Secuencias 16S rRNA
 
-Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género Mycobacterium:
+Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género *Mycobacterium*:
 
-Mycobacterium tuberculosis, Mycobacterium kansasii, Mycobacterium gordonae, Mycobacterium avium subsp. paratuberculosis y Mycolicibacterium smegmatis
+*Mycobacterium tuberculosis*, *Mycobacterium kansasii*, *Mycobacterium gordonae*, *Mycobacterium avium subsp. paratuberculosis* y *Mycolicibacterium smegmatis*
 
 Las secuencias fueron descargadas desde NCBI en formato FASTA.
 
