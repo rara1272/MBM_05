@@ -8,7 +8,7 @@
 - Paulo Franco 
 
 ## Objetivo
-Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género *Mycobacterium* mediante datos de secuenciación masiva y secuencias 16S rRNA.
+Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y análisis filogenético para evaluar secuencias genómicas y relaciones evolutivas entre especies del género *Mycobacterium* mediante datos de secuenciación masiva y secuencias *16S rRNA*.
 
 ### Objetivos específicos
 
@@ -22,9 +22,9 @@ Integrar herramientas bioinformáticas de control de calidad, preprocesamiento y
 
 Se utilizaron lecturas paired-end Illumina correspondientes a *Mycobacterium tuberculosis*, SRA: ERR2510812 obtenidas desde la base de datos pública NCBI-SRA.
 
-#Secuencias 16S rRNA
+#Secuencias *16S rRNA*
 
-Se seleccionaron secuencias de referencia del gen 16S rRNA pertenecientes a diferentes especies del género *Mycobacterium*:
+Se seleccionaron secuencias de referencia del gen *16S rRNA* pertenecientes a diferentes especies del género *Mycobacterium*:
 
 *Mycobacterium tuberculosis, Mycobacterium kansasii, Mycobacterium gordonae, Mycobacterium avium subsp. paratuberculosis y Mycolicibacterium smegmatis*
 
@@ -57,7 +57,7 @@ Esta fase inicial es fundamental para asegurar que los datos de secuenciación s
 
 Una vez que los datos son de alta calidad, el flujo se desplaza hacia la caracterización taxonómica y evolutiva.
 
-- 16S rRNA completas y Revisión (Fasta statistics): Se trabaja con secuencias del gen 16S rRNA. El primer paso es una revisión estadística (longitud, cantidad de secuencias, composición de bases) mediante Fasta statistics para verificar la homogeneidad de la muestra.
+- 16S rRNA completas y Revisión (Fasta statistics): Se trabaja con secuencias del gen *16S rRNA*. El primer paso es una revisión estadística (longitud, cantidad de secuencias, composición de bases) mediante Fasta statistics para verificar la homogeneidad de la muestra.
 
 - MAFFT (Alineamiento Múltiple): Es el proceso central de la segunda parte. MAFFT alinea las secuencias de nucleótidos para identificar regiones conservadas y variables, lo cual es el insumo necesario para entender las relaciones de parentesco.
 
