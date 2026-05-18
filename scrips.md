@@ -1,5 +1,17 @@
 #Scrip de maquina virtual para control de calidad de secuencia de *Mycobacterium tuberculosis* con acceso ERR2510812
 
+## Actualizar la lista de los paquetes de software de los repositorios de Lubuntu
+```
+sudo apt-get update
+```
+## Intalar herramienta de FastQC en la maquina virtual
+```
+sudo apt-get install fastqc
+```
+## Observar la versión exacta de FastQC
+```
+fastqc --version
+```
 ## Encontrar la secuencia
 ``` 
 curl -s "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERR2510812&result=read_run&fields=fastq_ftp"
