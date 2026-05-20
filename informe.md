@@ -95,8 +95,11 @@ Procesamiento: trimming, filtrado, limpieza. para: limpiar reads, recortar extre
 
 **Figura 2. Calidad por base de las lecturas reverse antes del preprocesamiento (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
-La tabla 3 muestra las métricas obtenidas después del procesamiento con *fastp* para las lecturas forward. 
-Se observa una reducción en el número total de secuencias y bases totales, resultado esperado tras la eliminación de fragmentos de baja calidad. La longitud mínima aumentó de 5 a 15 pb, indicando un filtrado efectivo de lecturas extremadamente cortas.
+La Tabla 3 muestra las métricas obtenidas del análisis de calidad después del procesamiento de las lecturas forward utilizando la herramienta *fastp*. En comparación con los resultados previos al procesamiento, se observa una mejora importante en la homogeneidad y confiabilidad de las secuencias obtenidas. Se observa una reducción en el número total de secuencias (de 569 449 a 550 032 lecturas) y bases totales (de 42.3 Mbp a 40.8 Mbp) resultado esperado tras la eliminación de fragmentos de baja calidad mediante la aplicación de trimming y filtrado, conservándose únicamente secuencias con mejores parámetros de calidad. La longitud mínima aumentó de 5 a 15 pb, indicando un filtrado efectivo de lecturas extremadamente cortas.
+
+El porcentaje de GC se mantuvo estable en 64 %, lo que confirma que el procesamiento no alteró la composición biológica esperada del genoma de Mycobacterium tuberculosis. De igual forma, ninguna secuencia fue catalogada como de baja calidad, indicando que el conjunto final de datos posee parámetros adecuados para análisis filogenéticos y bioinformáticos más robustos.
+
+En comparación con la tabla anterior, los resultados demuestran que el preprocesamiento con fastp permitió depurar el dataset, reduciendo ruido y errores asociados a la secuenciación, y generando lecturas más limpias, uniformes y confiables para las etapas posteriores de ensamblaje, alineamiento y reconstrucción filogenética.
 
  **Tabla 3. Resumen estadístico del FastQC post-procesamiento — Forward Reads**  
 | Measure | Value |
