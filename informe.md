@@ -69,7 +69,11 @@ La Figura 1 presenta dos graficas de la calidad por base correspondiente a las l
 
 **Figura 1. Calidad por base de las lecturas forward antes del preprocesamiento (a. Calidad en Galaxy; b. Calidad en Maquina Virtual)**  
 
-La tabla 2 resume las métricas de calidad obtenidas para las lecturas reverse del dataset crudo. Los resultados muestran un número total de secuencias y contenido GC similares a los observados en las lecturas forward, indicando consistencia entre ambos conjuntos paired-end. La presencia de lecturas cortas sugiere posibles regiones de baja calidad o artefactos derivados de la secuenciación.
+La tabla 2 resume las métricas de calidad obtenidas mediante el análisis de calidad realizado con FastQC para las lecturas reverse del dataset crudo de ERR2510812 de Mycobacterium tuberculosis. El conjunto de datos contiene un total de 569 449 secuencias, alcanzando aproximadamente 42.3 millones de bases (Mbp), lo que evidencia una profundidad de secuenciación adecuada para realizar análisis bioinformáticos y filogenéticos confiables. Además, el reporte indica que ninguna secuencia fue marcada inicialmente como de baja calidad (“Sequences flagged as poor quality = 0”), lo que sugiere un buen desempeño general de la corrida de secuenciación.
+
+La longitud de las secuencias varía entre 6 y 76 pb, indicando la presencia de lecturas recortadas o fragmentadas, posiblemente asociadas a regiones terminales de menor calidad o al proceso de eliminación de adaptadores y secuencias no confiables. Este comportamiento es común en datasets paired-end y justifica la necesidad de aplicar procedimientos de trimming y filtrado de calidad antes de los análisis posteriores.
+
+Finalmente, el contenido de GC de 64 % es consistente con las características genómicas del género Mycobacterium, conocido por poseer genomas ricos en guanina y citosina. Este resultado respalda la coherencia biológica del dataset y confirma que las secuencias corresponden al organismo de estudio.
 
 **Tabla 2. Resumen estadístico del FastQC inicial — Reverse Reads** 
 | Measure | Value |
