@@ -61,7 +61,8 @@ Asimismo, ninguna secuencia fue marcada como de baja calidad, lo que indica que 
 | Sequence length | 5-76 |
 | %GC | 64 |
 
-La figura 1 presenta la calidad por base correspondiente a las lecturas forward del dataset crudo de *Mycobacterium tuberculosis*, donde se purde observar valores elevados de calidad al inicio de las secuencias, representados principalmente en la zona verde del gráfico. Sin embargo, hacia las posiciones finales de lectura se observa una disminución progresiva de los valores Phred, indicando pérdida de precisión en los ciclos finales de secuenciación Illumina. Este comportamiento es común en datos de secuenciación paired-end y justifica la necesidad de aplicar procedimientos de control de calidad y trimming.
+La Figura 1 presenta dos graficas de la calidad por base correspondiente a las lecturas forward del dataset crudo de *Mycobacterium tuberculosis* antes del preprocesamiento, obtenido mediante herramientas de control de calidad como FastQC, donde se puede observar valores elevados de calidad al inicio de las secuencias, representados principalmente en la zona verde del gráfico. Sin embargo, hacia las posiciones finales de lectura se observa una disminución progresiva de los valores Phred, observándose mayor dispersión en las cajas y bigotes, indicando pérdida de precisión en los ciclos finales de secuenciación Illumina. Este comportamiento es común en datos de secuenciación paired-end y justifica la necesidad de aplicar procedimientos de control de calidad y trimming.
+
 
 ![After Forward Quality](results/imagenes/before_forward_quality.png)
 <img src="./results/imagenes/forwardbefore.png" width="375">
